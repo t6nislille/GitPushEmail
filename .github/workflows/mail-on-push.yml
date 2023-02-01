@@ -12,7 +12,7 @@ jobs:
             server_port: 465
             username: ${{secrets.MAIL_USERNAME}}
             password: ${{secrets.MAIL_PASSWORD}}
-            subject: ${{github.repository}}
+            subject: A push vas made.
             to: tonislille@gmail.com
             from: Github actions
             body: Push.
