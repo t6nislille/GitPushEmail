@@ -15,4 +15,4 @@ jobs:
             subject: A push vas made.
             to: tonislille@gmail.com
             from: Github actions
-            body: Push
+            body: A push vas made
