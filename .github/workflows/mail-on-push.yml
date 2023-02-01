@@ -13,6 +13,6 @@ jobs:
             username: ${{secrets.MAIL_USERNAME}}
             password: ${{secrets.MAIL_PASSWORD}}
             subject: ${{github.repository}}
-            body: Push
             to: tonislille@gmail.com
-            from: ${{github.event.pusher.name}}
+            from: Github actions
+            body: Push.
